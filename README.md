@@ -42,6 +42,9 @@ Projeto desenvolvido para atender a um teste técnico com foco em arquitetura li
 - GET `/api/operacoes/rankings/maiores-corretagens` – Top 10 usuários por corretagem
 - GET `/api/operacoes/corretagens/total` – Valor financeiro total em corretagens
 
+![image](https://github.com/user-attachments/assets/79d52438-33f9-4cbe-b660-0b818d5d854b)
+
+
 ## Frontend (`InvestControl.UI`)
 
 O frontend foi desenvolvido com HTML, Tailwind CSS e JavaScript puro, consumindo os endpoints da API para exibir os principais dados de investimento por usuário.
@@ -63,6 +66,8 @@ O frontend foi desenvolvido com HTML, Tailwind CSS e JavaScript puro, consumindo
 - **Tailwind CSS**
 - **Chart.js**
 - **Axios**
+![image](https://github.com/user-attachments/assets/fcce3c4c-aa7b-422e-bb69-b9c384824fce)
+
 
 ## Testes Unitários e Mutantes
 
