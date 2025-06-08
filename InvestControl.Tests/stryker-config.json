@@ -1,0 +1,51 @@
+{
+  "project": "InvestControl.Tests.csproj",
+  "project-info": {
+    "name": "InvestControl",
+    "module": "Application",
+    "version": "1.0.0"
+  },
+  "concurrency": 6,
+  "mutation-level": "Standard",
+  "language-version": "latest",
+  "additional-timeout": 5000,
+  "mutate": [
+    "../InvestControl.Application/Services/**/*.cs"
+  ],
+  "solution": "../InvestControlApp.sln",
+  "configuration": "Debug",
+  "target-framework": "net8.0",
+  "coverage-analysis": "perTest",
+  "disable-bail": false,
+  "disable-mix-mutants": false,
+  "thresholds": {
+    "high": 90,
+    "low": 75,
+    "break": 60
+  },
+  "verbosity": "info",
+  "reporters": [
+    "progress",
+    "html"
+  ],
+  "since": {
+    "enabled": false,
+    "ignore-changes-in": [],
+    "target": "main"
+  },
+  "baseline": {
+    "enabled": false,
+    "provider": "disk",
+    "azure-fileshare-url": "",
+    "fallback-version": "main"
+  },
+  "dashboard-url": "https://dashboard.stryker-mutator.io",
+  "test-projects": [
+    "InvestControl.Tests"
+  ],
+  "test-case-filter": "",
+  "ignore-mutations": [],
+  "ignore-methods": [],
+  "report-file-name": "mutation-report",
+  "break-on-initial-test-failure": false
+}

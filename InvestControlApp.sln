@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestControl.Domain", "InvestControl.Domain\InvestControl.Domain.csproj", "{D3B5D514-17FF-4D78-888D-25EF131E20B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestControl.Application", "InvestControl.Application\InvestControl.Application.csproj", "{35BE6509-F635-4E87-85B8-779A54650C70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestControl.Infrastructure", "InvestControl.Infrastructure\InvestControl.Infrastructure.csproj", "{CCA67051-F1B5-470A-BE17-76AE5C5D80C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestControl.WebApi", "InvestControl.WebApi\InvestControl.WebApi.csproj", "{162132DF-44C2-4075-B906-1FC653D2F837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestControl.Consumer", "InvestControl.Worker\InvestControl.Consumer.csproj", "{147144C7-637A-41A9-9A91-E14D9147D7A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvestControl.Tests", "InvestControl.Tests\InvestControl.Tests.csproj", "{6A079203-C4A1-488A-B8F0-4F992D034F12}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3B5D514-17FF-4D78-888D-25EF131E20B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3B5D514-17FF-4D78-888D-25EF131E20B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3B5D514-17FF-4D78-888D-25EF131E20B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3B5D514-17FF-4D78-888D-25EF131E20B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35BE6509-F635-4E87-85B8-779A54650C70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35BE6509-F635-4E87-85B8-779A54650C70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35BE6509-F635-4E87-85B8-779A54650C70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35BE6509-F635-4E87-85B8-779A54650C70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCA67051-F1B5-470A-BE17-76AE5C5D80C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCA67051-F1B5-470A-BE17-76AE5C5D80C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCA67051-F1B5-470A-BE17-76AE5C5D80C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCA67051-F1B5-470A-BE17-76AE5C5D80C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{162132DF-44C2-4075-B906-1FC653D2F837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{162132DF-44C2-4075-B906-1FC653D2F837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{162132DF-44C2-4075-B906-1FC653D2F837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{162132DF-44C2-4075-B906-1FC653D2F837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{147144C7-637A-41A9-9A91-E14D9147D7A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{147144C7-637A-41A9-9A91-E14D9147D7A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{147144C7-637A-41A9-9A91-E14D9147D7A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{147144C7-637A-41A9-9A91-E14D9147D7A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A079203-C4A1-488A-B8F0-4F992D034F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A079203-C4A1-488A-B8F0-4F992D034F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A079203-C4A1-488A-B8F0-4F992D034F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A079203-C4A1-488A-B8F0-4F992D034F12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25E69AB8-F6DD-4B11-8529-AE545F32A0F1}
+	EndGlobalSection
+EndGlobal
