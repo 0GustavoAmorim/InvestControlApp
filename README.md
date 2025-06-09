@@ -114,10 +114,6 @@ Implementada com **Polly**:
 - Múltiplos workers podem processar cotações em paralelo
 - Kafka distribui automaticamente entre partições e consumidores
 
-### Balanceamento de Carga
-
-- Kafka gerencia consumer groups com round-robin """ENTENDER"""
-
 ## Padrão RESTful
 
 - Verbos HTTP adequados (GET)
