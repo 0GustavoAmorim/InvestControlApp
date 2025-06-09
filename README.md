@@ -105,7 +105,7 @@ Implementada com **Polly**:
 - **Retry**: até 3 vezes com delay de 2s
 - **Circuit Breaker**: fecha consumo temporariamente após 3 falhas
 - **Fallback**: ignora mensagens inválidas
-- **Idempotência**: não grava cotações duplicadas `(ativo_id, data_hora)`
+- **Idempotência**: não grava cotações duplicadas `(preco_unitario, data_hora)`
 
 ## Escalabilidade e Performance
 
