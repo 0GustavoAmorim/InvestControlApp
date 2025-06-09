@@ -2,7 +2,7 @@
 
 ## Descrição
 
-Projeto desenvolvido para atender a um teste técnico com foco em arquitetura limpa, mensageria com Kafka, resiliência e performance de consultas. A aplicação permite o controle de investimentos de clientes, incluindo posições, cotações, operações e rankings.
+Projeto desenvolvido para atender a um teste técnico com foco em arquitetura limpa, mensageria com Kafka e resiliência. A aplicação permite o controle de investimentos de clientes, incluindo posições, cotações, operações e rankings.
 
 ## Tecnologias Utilizadas
 
@@ -14,13 +14,13 @@ Projeto desenvolvido para atender a um teste técnico com foco em arquitetura li
 - **Swagger (OpenAPI 3.0)**
 - **Worker Service .NET**
 - **Tailwind CSS**
-- **Chart.js**
-- **Axios**
+- **JS**
+- **HTML**
 
 ## Repositórios
-
-- Producer Kafka: 👉 `InvestControl.Producer` ([Repositório Producer](https://github.com/0GustavoAmorim/InvestControl.Producer))
-- Frontend: 👉 `InvestControl.UI` ([Repositório Frontend](https://github.com/0GustavoAmorim/InvestControl.UI))
+- InvestControlApp: `InvestControlApp` ([Repositório Principal](https://github.com/0GustavoAmorim/InvestControlApp)])
+- Producer Kafka: `InvestControl.Producer` ([Repositório Producer](https://github.com/0GustavoAmorim/InvestControl.Producer))
+- Frontend: `InvestControl.UI` ([Repositório Frontend](https://github.com/0GustavoAmorim/InvestControl.UI))
 
 ## Arquitetura
 
